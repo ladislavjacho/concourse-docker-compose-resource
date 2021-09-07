@@ -94,7 +94,7 @@ up_command_opt_no_deps() {
 up_command_opt_force_recreate() {
   local force_recreate=$(jq -r '.params.options.force_recreate // ""' < $payload)
   if [ "$force_recreate" = "true" ]; then
-    echo "--force-recreate"
+    echo "--force-recreate=true"
   fi
 }
 
