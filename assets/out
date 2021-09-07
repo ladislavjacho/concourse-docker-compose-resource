@@ -140,6 +140,7 @@ up_command_scale() {
 up_command_options() {
   echo \
     -d \
+    --build \
     $(up_command_opt_no_deps) \
     $(up_command_opt_force_recreate) \
     $(up_command_opt_no_recreate) \
