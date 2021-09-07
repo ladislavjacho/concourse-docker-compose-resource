@@ -1,5 +1,5 @@
 FROM docker/compose:1.24.1 as main
-LABEL maintainer="Troy Kinsella <troy.kinsella@gmail.com>"
+#LABEL maintainer="Troy Kinsella <troy.kinsella@gmail.com>"
 
 RUN set -eux \
  && apk update \
